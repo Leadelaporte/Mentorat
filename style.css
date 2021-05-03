@@ -65,3 +65,21 @@ mark
     list-style-position: inside;
     text-align: center;
 }
+
+a
+{
+    text-decoration: underline;
+    color: #B0F0F2;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+a:visited
+{
+    text-decoration: underline;
+    color: palevioletred;
+}
