@@ -1,0 +1,64 @@
+@font-face 
+{
+    font-family: "anaphora-extralightitalic" ;
+    src: url(anaphora-extralightitalic-webfont.woff) format("woff"),
+         url(anaphora-extralightitalic-webfont.svg) format('svg'),
+         url(anaphora-extralightitalic-webfont.eot) format('eot'),
+         url(anaphora-extralightitalic-webfont.ttf) format('ttf');
+         
+}
+
+body
+{
+    background-color: #AEB1B3;
+    color: white;
+    border: 10px #B0F0F2 double;
+}
+
+h1
+{
+    color: #B0F0F2;
+    font-family: verdana, arial, georgia, sans-serif;
+    font-size: 3em;
+    background-color: #757677;
+    opacity: 0.7;
+}
+
+h2
+{
+    font-size: 2em;
+}
+    
+p, ol
+{
+    font-size: 1.2em;
+}
+
+h2, p, ol
+{
+    font-family: 'anaphora-extralightitalic', verdana, arial, georgia, sans-serif;
+}
+
+strong
+{
+   font-weight: bold; 
+}
+
+em
+{
+    font-style: italic;
+}
+
+mark
+{
+    background-color: #AEB1B3;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+*
+{
+    list-style-position: inside;
+    text-align: center;
+}
